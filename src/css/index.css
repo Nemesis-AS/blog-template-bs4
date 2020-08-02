@@ -1,0 +1,18 @@
+.social-icon {
+	font-size: 1.5rem;
+
+	transition: transform .5s;
+	cursor: pointer;
+}
+
+.social-link {
+	color: var(--light)!important;
+}
+
+.social-link-dark {
+	color: var(--dark)!important;
+}
+
+.social-icon:hover {
+	transform: scale(1.4);
+}

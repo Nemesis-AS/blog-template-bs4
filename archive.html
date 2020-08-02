@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+	<title>Archive | Code Nemesis Blogs</title>
+
+	<link rel="stylesheet" href="src/css/all.min.css">
+
+	<link rel="stylesheet" href="src/css/index.css">
+
+	<style>
+		textarea#feedback {
+			resize: none;
+		}
+	</style>
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Code Nemesis&trade;</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item">
+                        <a href="index.html" class="nav-link">Home</a> 
+                    </li>
+                    <li class="navbar-item">
+                        <a href="archive.html" class="nav-link">Archive</a>
+                    </li>
+                    <li class="navbar-item" data-toggle="modal" data-target="#contact-modal">
+                        <a href="#" class="nav-link">Send Feedback</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+
+	<div class="container">
+		<div class="h2 text-center">Blog Posts</div>
+
+		<div class="row post-row border-bottom border-dark p-2">
+			<div class="col-md-3">
+				<a href="posts/post2.html">
+					<img src="src/images/post2.jpg" alt="" class="img-fluid">
+				</a>
+			</div>
+
+			<div class="col-md-9">
+				<h2>
+					<a class="text-primary" href="posts/post2.html">Post#2</a>
+				</h2>
+				<h6 class="font-weight-light">
+					<a href="users/NemesisAS14" class="text-muted">
+						by <span class="font-weight-bold font-italic">Nemesis&trade;</span>
+					</a>
+				</h6>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime veniam velit pariatur ea laudantium animi atque, praesentium reprehenderit voluptatum voluptate impedit esse quae asperiores vitae dicta cupiditate at, tempore, nisi?</p>
+			</div>
+		</div>
+
+		<div class="row post-row border-bottom border-dark p-2">
+			<div class="col-md-3">
+				<a href="posts/post1.html">
+					<img src="src/images/post1.jpg" alt="" class="img-fluid">
+				</a>
+			</div>
+
+			<div class="col-md-9">
+				<h3>
+					<a class="text-primary" href="posts/post1.html">Post#1</a>
+				</h3>
+				<h6 class="font-weight-light">
+					<a href="users/NemesisAS14" class="text-muted">
+						by <span class="font-weight-bold font-italic">Nemesis&trade;</span>
+					</a>
+				</h6>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime veniam velit pariatur ea laudantium animi atque, praesentium reprehenderit voluptatum voluptate impedit esse quae asperiores vitae dicta cupiditate at, tempore, nisi?</p>
+			</div>
+		</div>
+
+	</div>
+
+
+	
+
+	<!-- Footer -->
+    <footer class="mb-0 p-3 bg-dark text-light">
+    	<div class="container d-flex justify-content-center">
+    		<div class="col-4 text-center">
+    			<h6>Important Links</h6>
+    			<ul class="list-unstyled">
+					<li><a href="posts/post1.html" class="text-light">Post#1</a></li>
+					<li><a href="posts/post2.html" class="text-light">Post#2</a></li>
+				</ul>
+    		</div>
+
+    		<div class="col-4 text-center">
+    			<h6>Important Links 2</h6>
+    			<ul class="list-unstyled">
+					<li>Hello</li>
+					<li>World</li>
+				</ul>
+    		</div>	
+    	</div>
+
+    	<div class="container d-flex justify-content-center">
+    		<div class="social-icon mx-2">
+    			<a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+    		</div>
+
+    		<div class="social-icon mx-2">
+    			<a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+    		</div>
+
+    		<div class="social-icon mx-2">
+    			<a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+    		</div>
+
+    		<div class="social-icon mx-2">
+    			<a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+    		</div>
+
+    		<div class="social-icon mx-2">
+    			<a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+    		</div>
+    	</div>
+    </footer>
+
+	<!-- Feedback Modal -->
+    <div class="modal fade" id="contact-modal" role="dialog" aria-labelled-by="contact-modal" aria-hidden="true">
+    	<div class="modal-dialog" role="document">
+    		<div class="modal-content">
+
+    			<div class="modal-header">
+    				<h5 class="modal-title">Contact Us</h5>
+    				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          				<span aria-hidden="true">&times;</span>
+        			</button>
+    			</div>
+
+    			<div class="modal-body">
+    				<form id="contactForm">
+    					<div class="form-group">
+    						<label for="name" class="label">Name:</label>
+							<input type="text" class="form-control" id="name" placeholder="Name">
+    					</div>
+
+    					<div class="form-group">
+    						<label for="email" class="label">Email:</label>
+							<input type="text" class="form-control" id="email" placeholder="Email">
+							<div class="invalid-feedback">Invalid Email!</div>
+    					</div>
+
+    					<div class="form-group">
+    						<label for="feedback" class="label">Feedback:</label>
+							<textarea name="feedback" class="form-control" id="feedback" rows="3"></textarea>
+    					</div>
+    				</form>
+    			</div>
+
+    			<div class="modal-footer">
+    				<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+        			<button type="submit" class="btn btn-outline-success" form="contactForm">Send</button>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+  	<script src="src/js/common.js"></script>
+</body>
+</html>

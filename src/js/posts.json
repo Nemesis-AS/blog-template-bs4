@@ -1,0 +1,16 @@
+{
+	"posts": [
+		{
+			"title": "Post#1",
+			"author": "Nemesis&trade;",
+			"postDate": "11/08/2020",
+			"content": "<img class='img-fluid mx-auto' src='../src/images/post1.jpg' alt='Penguins'><p class='lead'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum tempore fuga placeat ratione nostrum alias? Odio tempore, veniam. Vel, fuga!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quidem illum omnis rerum iste voluptas, eveniet iure, doloribus neque sapiente. Quod ex earum obcaecati. Laudantium quis, mollitia quae fugit error magnam ab odio molestias tenetur. Minima dolores pariatur quisquam ea sapiente non odio animi illum, possimus officia eaque architecto, beatae!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore earum sunt architecto doloribus ad consequuntur totam repudiandae repellat. Sint officiis minus dolorum, cumque inventore, earum voluptatum tenetur nobis eos accusamus sit praesentium, vero amet. Obcaecati voluptatibus soluta illum perferendis consectetur odit ab itaque velit ea, aliquid nam molestias reiciendis esse omnis, quia magni. Quis eveniet a unde, consectetur dolorum fugit eligendi odit saepe reiciendis, totam numquam, asperiores mollitia qui omnis sapiente at earum doloremque! Quaerat ipsam voluptatibus architecto delectus qui dolor, voluptate, distinctio et dolore recusandae numquam quibusdam voluptas ullam saepe culpa. Delectus quod eveniet maxime, perferendis molestiae, dicta eaque.</p>"
+		},
+		{
+			"title": "Post#2",
+			"author": "Nemesis&trade;",
+			"postDate": "11/08/2020",
+			"content": "<img class='img-fluid mx-auto' src='../src/images/post2.jpg' alt='Penguins'><p class='lead'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum tempore fuga placeat ratione nostrum alias? Odio tempore, veniam. Vel, fuga!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quidem illum omnis rerum iste voluptas, eveniet iure, doloribus neque sapiente. Quod ex earum obcaecati. Laudantium quis, mollitia quae fugit error magnam ab odio molestias tenetur. Minima dolores pariatur quisquam ea sapiente non odio animi illum, possimus officia eaque architecto, beatae!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore earum sunt architecto doloribus ad consequuntur totam repudiandae repellat. Sint officiis minus dolorum, cumque inventore, earum voluptatum tenetur nobis eos accusamus sit praesentium, vero amet. Obcaecati voluptatibus soluta illum perferendis consectetur odit ab itaque velit ea, aliquid nam molestias reiciendis esse omnis, quia magni. Quis eveniet a unde, consectetur dolorum fugit eligendi odit saepe reiciendis, totam numquam, asperiores mollitia qui omnis sapiente at earum doloremque! Quaerat ipsam voluptatibus architecto delectus qui dolor, voluptate, distinctio et dolore recusandae numquam quibusdam voluptas ullam saepe culpa. Delectus quod eveniet maxime, perferendis molestiae, dicta eaque.</p>"
+		}
+	]
+}
